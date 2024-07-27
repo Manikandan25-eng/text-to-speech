@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    width: 1000px;
+    flex-direction: column;
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1000' height='1000' preserveAspectRatio='none' viewBox='0 0 1000 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1301%26quot%3b)' fill='none'%3e%3crect width='1000' height='1000' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cg transform='translate(-10%2c 40)' stroke-linecap='round'%3e%3cpath d='M186.5 463.99 L186.5 536.01' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M205.5 278.56 L205.5 721.43' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M224.5 406.55 L224.5 593.45' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M243.5 465.25 L243.5 534.75' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M262.5 345.1 L262.5 654.9' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M281.5 440.22 L281.5 559.78' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M300.5 394.5 L300.5 605.5' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M319.5 398.1 L319.5 601.9' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M338.5 305.16 L338.5 694.84' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M357.5 241.37 L357.5 758.63' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M376.5 186.58 L376.5 813.41' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M395.5 387.49 L395.5 612.51' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M414.5 187.71 L414.5 812.29' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M433.5 278.6 L433.5 721.4' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M452.5 362.6 L452.5 637.4' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M471.5 337.62 L471.5 662.38' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M490.5 396.36 L490.5 603.64' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M509.5 251.28 L509.5 748.72' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M528.5 464.67 L528.5 535.33' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M547.5 312.31 L547.5 687.68' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M566.5 348.69 L566.5 651.32' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M585.5 339.53 L585.5 660.47' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M604.5 201.25 L604.5 798.75' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M623.5 380.98 L623.5 619.02' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M642.5 402.55 L642.5 597.45' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M661.5 464.1 L661.5 535.9' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M680.5 216.45 L680.5 783.55' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M699.5 337.64 L699.5 662.36' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M718.5 388.64 L718.5 611.36' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M737.5 404.94 L737.5 595.06' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M756.5 352.96 L756.5 647.04' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3cpath d='M775.5 221.95 L775.5 778.05' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M794.5 279.38 L794.5 720.62' stroke-width='14.25' stroke='%233a7cc3'%3e%3c/path%3e%3cpath d='M813.5 420.94 L813.5 579.06' stroke-width='14.25' stroke='%23dd1133'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1301'%3e%3crect width='1000' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+   
+    
+h1{
+    font-size: 30px;
+    background-color: rgb(110, 130, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 4px 10px rgb(238, 238, 238);
+
+}
+textarea{
+    margin-top: 10px;
+    box-shadow: 5px 6px 10px black;
+    border: none;
+    outline: none;
+
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+button:hover{
+    background-color: rgb(15, 129, 15);
+}
